@@ -1,0 +1,15 @@
+---
+data_id: MR
+time_column: mr_time
+neighbour_column: cgi_nc
+sample_interval: 1day
+nominal:
+  - nearfcn_nc  # 单个邻区中心载频的信道号
+  - pci_nc  # 单个邻区物理小区标识
+numeric:
+  - mr_count2_nc  # 单个邻区的MR采集电平值大于-110的点数
+  - mr_count_nc  # 邻区的MR采样点数量
+  - ta_avg_sc  # 平均TA
+  - rsrp_sc  # 服务小区平均RSRP
+  - rsrp_nc  # 邻小区平均RSRP
+  - dst_src_count  # (邻小区RSRP-源小区RSRP)大于等于3的采样点数量

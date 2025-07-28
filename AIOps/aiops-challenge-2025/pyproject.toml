@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=70.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiops-challenge-2025"
+description = "AIOps Challenge 2025 开发评测框架"
+license = "Apache-2.0"
+readme = "README.md"
+version = "0.0.4"
+dependencies = [
+  "numpy",
+  "pandas",
+  "PyYAML",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["aiops_challenge_2025", "aiops_challenge_2025.*"]
+
+[tool.setuptools.package-data]
+"aiops_challenge_2025.config" = ["*.yaml"]
+"aiops_challenge_2025.sample" = ["*.csv", "*.json", "**/*.csv"]

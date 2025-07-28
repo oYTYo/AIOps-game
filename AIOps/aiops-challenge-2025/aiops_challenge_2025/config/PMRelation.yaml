@@ -1,0 +1,9 @@
+---
+data_id: PMRelation
+time_column: starttime
+neighbour_column: cgi_nc
+sample_interval: 1day
+nominal: []
+numeric:
+  - ho_succ_out  # 源小区至邻小区切换出成功次数
+  - ho_att_out  # 源小区至邻小区切换出尝试次数

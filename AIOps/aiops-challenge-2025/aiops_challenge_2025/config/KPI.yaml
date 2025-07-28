@@ -1,0 +1,59 @@
+---
+data_id: KPI
+time_column: date_time
+sample_interval: 15m
+nominal: []
+numeric:
+  - ho_succoutinterenbs1  # eNB间S1切换出成功次数
+  - ho_succoutinterenbx2  # eNB间X2切换出成功次数
+  - ho_succoutintraenb  # eNB内切换出成功次数
+  - ho_attoutinterenbs1  # eNB间S1切换出请求次数
+  - ho_attoutinterenbx2  # eNB间X2切换出请求次数
+  - ho_attoutintraenb  # eNB内切换出请求次数
+  - pdcp_upoctdl  # 小区用户面下行字节数
+  - pdcp_upoctul  # 小区用户面上行字节数
+  - rru_pdschprbassn  # 下行PDSCH PRB占用平均数
+  - rru_pdschprbtot  # 下行PDSCH PRB可用平均数
+  - rru_puschprbassn  # 上行PUSCH PRB占用平均数
+  - rru_puschprbtot  # 上行PUSCH PRB可用平均数
+  - rrc_connmax  # RRC连接最大数
+  - rrc_connmean  # RRC连接平均数
+  - rrc_succconnestab  # RRC连接建立成功次数
+  - rrc_attconnreestab  # RRC连接重建请求次数
+  - rrc_attconnestab  # RRC连接建立请求次数
+  - erab_nbrsuccestab  # E-RAB建立成功数
+  - erab_nbrattestab  # E-RAB建立请求数
+  - erab_nbrreqrelenb  # eNB请求释放的E-RAB数
+  - erab_nbrreqrelenb_normal  # 无线接口进程失败原因导致的E-RAB建立失败数
+  - erab_hofail  # 切出失败的E-RAB数
+  - erab_nbrleft  # 遗留E-RAB个数
+  - erab_nbrfailestab  # E-RAB建立失败数
+  - context_succinitalsetup  # 初始上下文建立成功次数
+  - pdcp_thrptimeul  # 小区pdcp层接收上行数据的业务总时长
+  - pdcp_thrptimedl  # 小区pdcp层接收下行数据的业务总时长
+  - pdcp_nbrpktdl  # 小区下行包数
+  - pdcp_nbrpktul  # 小区上行包数
+  - pdcp_uppkttotdelaydl  # 小区用户面下行总时延
+  - pdcp_nbrpktlossdl  # 小区下行丢包数
+  - pdcp_nbrpktlossul  # 小区上行丢包数
+  - rru_pdcchcceavail  # PDCCH信道CCE可用个数
+  - rru_pdcchcceutil  # PDCCH信道CCE占用个数
+  - erab_nbrmeanestab_1  # 4G话务量
+  - erab_nbrhoinc  # 切换入E-RAB数
+  - pdcp_uplastttioctul  # 小区用户面上行尾包字节数
+  - pdcp_uplastttioctdl  # 小区用户面下行尾包字节数
+  - ho_succoutintrafreq  # 同频切换出成功次数
+  - ho_succoutinterfreq  # 异频切换出成功次数
+  - ho_succexecinc  # 切换入成功次数
+  - rrc_effectiveconnmean  # 有效RRC连接平均数
+  - rrc_effectiveconnmax  # 有效RRC连接最大数
+  - rru_totalprbusagemeanul  # 上行PRB平均利用率
+  - rru_totalprbusagemeandl  # 下行PRB平均利用率
+  - pdcch_cce_rate  # PDCCH信道CCE占用率
+  - phy_ulmeannl_prb  # 干扰电平
+  - succ_conn_rate  # 无线接通率
+  - drop_rate  # 无线掉线率
+  - ho_succ_rate  # 切换成功率
+  - pag_pagdiscarded  # 寻呼记录丢弃个数
+  - erab_nbrreqrelenb.1  # eNB请求释放的E-RAB数(QCI=1)
+  - erab_nbrreqrelenb_normal.1  # 正常的eNB请求释放的E-RAB数(QCI=1)

@@ -1,0 +1,7 @@
+[
+    {
+        "cell_id": "cell-1",
+        "start_time": "2025-01-02 00:00:00",
+        "change": {"ReferenceSignalPower": 10}
+    }
+]

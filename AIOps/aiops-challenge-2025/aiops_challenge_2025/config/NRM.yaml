@@ -1,0 +1,7 @@
+---
+data_id: NRM
+time_column: time
+sample_interval: 1day
+nominal: []
+numeric:
+  - ReferenceSignalPower  # 参考信号功率

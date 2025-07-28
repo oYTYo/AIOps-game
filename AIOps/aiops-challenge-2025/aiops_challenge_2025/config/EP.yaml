@@ -1,0 +1,19 @@
+---
+data_id: EP
+time_column: time
+sample_interval: 1day
+nominal:
+  - pci  # 物理小区标识
+  - site_type  # 基站类型
+  - is_rail_site  # 是否为铁路专网
+  - earfcn  # 中心载频的信道号
+  - duplex_mode  # 网络制式
+  - band  # 频段
+  - coverage_scenario  # 覆盖场景
+  - coverage_type  # 覆盖类型
+numeric:
+  - mtilt  # 机械下倾角
+  - etilt  # 电调下倾角
+  - azimuth  # 方位角
+  - height  # 站高
+  - band_width  # 系统带宽
